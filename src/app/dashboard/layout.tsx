@@ -9,6 +9,7 @@ loginuser
     notifications: React.ReactNode;
     users:React.ReactNode ;
     analytics:React.ReactNode ;
+    loginuser:React.ReactNode ;
 }){
     return (
     <>
