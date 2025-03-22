@@ -12,7 +12,7 @@ loginuser
     loginuser:React.ReactNode ;
 }){
 
-const isLogged = true ;
+const isLogged = false ;
 
     return isLogged ?  (
     <>
@@ -22,7 +22,7 @@ const isLogged = true ;
             <div>{notifications}</div>
             <div>{users}</div>
         </div>
-        <div> {notifications}</div>
+        <div> {analytics}</div>
         </div>  
             
             
