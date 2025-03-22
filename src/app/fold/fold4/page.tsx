@@ -6,6 +6,7 @@ export default function Fold4(){
 
             <h1 className="text-center text-slate text-4xl my-6">Page fold4</h1>
             <Link href="/fold/fold3">Fold 3</Link>
+            <Link href="/about">About</Link>
         </div>
     )
 }
