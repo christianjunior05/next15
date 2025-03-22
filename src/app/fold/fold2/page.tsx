@@ -1,5 +1,3 @@
-import Link  from "next/link";
-
 export default function Fold2(){
     return (
         <div className="w-full h-screen flex items-center justify-center">
