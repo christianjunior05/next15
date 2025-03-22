@@ -11,7 +11,10 @@ loginuser
     analytics:React.ReactNode ;
     loginuser:React.ReactNode ;
 }){
-    return (
+
+const isLogged = true ;
+
+    return isLogged ?  (
     <>
         <div>{children}</div>
         <div className="flex">
@@ -24,5 +27,5 @@ loginuser
             
             
              </>
-    )
+    ) : loginuser
 }
