@@ -27,5 +27,5 @@ const isLogged = true ;
             
             
              </>
-    ) : loginuser
+    ) :(loginuser)
 }
