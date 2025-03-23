@@ -1,0 +1,1 @@
+export const reviewsTabs:{id:number , text:string}[] 
