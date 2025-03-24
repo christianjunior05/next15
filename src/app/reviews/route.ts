@@ -6,9 +6,11 @@ export async function GET(){
 
 export async function POST(request:Request){
     const review= await request.json()
+
+
     const newReview ={
         id:reviewsTabs.length+1, 
-        text: review.text()
+        text: review.text
     }
 
      reviewsTabs.push(newReview)
